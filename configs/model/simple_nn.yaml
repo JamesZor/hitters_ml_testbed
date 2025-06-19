@@ -1,0 +1,13 @@
+# configs/model/simple_nn.yaml
+_target_: src.models.neural_nets.SimpleNN
+
+# Model architecture
+hidden_sizes: [50]
+dropout_rate: 0.4
+activation: "relu"
+
+# Model training parameters
+learning_rate: 0.001
+optimizer: "adam"
+weight_decay: 0
+

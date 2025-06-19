@@ -1,0 +1,2 @@
+- model.dropout_rate=0.7
+- experiment.name=droprate_0.7

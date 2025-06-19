@@ -1,0 +1,13 @@
+# configs/model/deep_nn.yaml
+_target_: src.models.neural_nets.DeepNN
+
+# Model architecture
+hidden_sizes: [64, 32, 16]
+dropout_rate: 0.3
+activation: "relu"
+batch_norm: true
+
+# Model training parameters
+learning_rate: 0.001
+optimizer: "adam"
+weight_decay: 0.0001

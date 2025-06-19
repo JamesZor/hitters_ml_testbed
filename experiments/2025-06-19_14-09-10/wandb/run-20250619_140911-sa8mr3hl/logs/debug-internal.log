@@ -1,0 +1,16 @@
+{"time":"2025-06-19T14:09:11.294487912Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_14-09-10/wandb/run-20250619_140911-sa8mr3hl/logs/debug-core.log"}
+{"time":"2025-06-19T14:09:11.603468075Z","level":"INFO","msg":"stream: created new stream","id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:11.60349201Z","level":"INFO","msg":"stream: started","id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:11.60350786Z","level":"INFO","msg":"writer: Do: started","stream_id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:11.603511978Z","level":"INFO","msg":"handler: started","stream_id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:11.603520514Z","level":"INFO","msg":"sender: started","stream_id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:12.009097256Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T14:09:15.8952296Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T14:09:15.895257352Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T14:09:16.897142959Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-sa8mr3hl","runtime_seconds":1.002848944,"subtasks":[{"desc":"final_model.pt","runtime_seconds":0.100339047,"progress":"6.4KB/6.4KB"}]},{"desc":"uploading config.yaml","runtime_seconds":0.487180134,"progress":"8.8KB/8.8KB"}],"total_operations":2}}
+{"time":"2025-06-19T14:09:18.289252937Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T14:09:18.76226939Z","level":"INFO","msg":"stream: closing","id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:18.762279629Z","level":"INFO","msg":"handler: closed","stream_id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:18.762284809Z","level":"INFO","msg":"writer: Close: closed","stream_id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:18.762303343Z","level":"INFO","msg":"sender: closed","stream_id":"sa8mr3hl"}
+{"time":"2025-06-19T14:09:18.762337497Z","level":"INFO","msg":"stream: closed","id":"sa8mr3hl"}

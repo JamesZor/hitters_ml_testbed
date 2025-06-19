@@ -1,0 +1,17 @@
+{"time":"2025-06-19T13:43:12.153605279Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/home/james/ml_projects/hitters_ml_project/wandb/run-20250619_134311-kq6shui5/logs/debug-core.log"}
+{"time":"2025-06-19T13:43:12.489813013Z","level":"INFO","msg":"stream: created new stream","id":"kq6shui5"}
+{"time":"2025-06-19T13:43:12.489838832Z","level":"INFO","msg":"stream: started","id":"kq6shui5"}
+{"time":"2025-06-19T13:43:12.48985404Z","level":"INFO","msg":"sender: started","stream_id":"kq6shui5"}
+{"time":"2025-06-19T13:43:12.489851526Z","level":"INFO","msg":"writer: Do: started","stream_id":"kq6shui5"}
+{"time":"2025-06-19T13:43:12.489877023Z","level":"INFO","msg":"handler: started","stream_id":"kq6shui5"}
+{"time":"2025-06-19T13:43:12.633507074Z","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-06-19T13:43:12.633601251Z","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-06-19T13:43:13.635830332Z","level":"INFO","msg":"stream: closing","id":"kq6shui5"}
+{"time":"2025-06-19T13:43:13.641721129Z","level":"ERROR","msg":"sender: uploadConfigFile: stream: no run"}
+{"time":"2025-06-19T13:43:13.816261807Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-06-19T13:43:13.816350312Z","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project my-awesome-team-name/my-awesome-project not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-06-19T13:43:13.820256788Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T13:43:13.820300881Z","level":"INFO","msg":"handler: closed","stream_id":"kq6shui5"}
+{"time":"2025-06-19T13:43:13.820308776Z","level":"INFO","msg":"writer: Close: closed","stream_id":"kq6shui5"}
+{"time":"2025-06-19T13:43:13.820310229Z","level":"INFO","msg":"sender: closed","stream_id":"kq6shui5"}
+{"time":"2025-06-19T13:43:13.820343351Z","level":"INFO","msg":"stream: closed","id":"kq6shui5"}

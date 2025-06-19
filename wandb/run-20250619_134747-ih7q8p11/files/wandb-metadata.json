@@ -1,0 +1,12 @@
+{
+  "os": "Linux-6.14.5-arch1-1-x86_64-with-glibc2.41",
+  "python": "CPython 3.11.13",
+  "startedAt": "2025-06-19T13:47:47.804143Z",
+  "program": "/home/james/ml_projects/hitters_ml_project/test_wandb.py",
+  "codePath": "test_wandb.py",
+  "email": "jameszoryk@msn.com",
+  "root": "/home/james/ml_projects/hitters_ml_project",
+  "host": "archpc",
+  "executable": "/home/james/.conda/envs/ml-env/bin/python",
+  "codePathLocal": "test_wandb.py"
+}

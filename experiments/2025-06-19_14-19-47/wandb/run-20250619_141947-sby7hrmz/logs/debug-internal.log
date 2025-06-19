@@ -1,0 +1,16 @@
+{"time":"2025-06-19T14:19:47.809154219Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_14-19-47/wandb/run-20250619_141947-sby7hrmz/logs/debug-core.log"}
+{"time":"2025-06-19T14:19:48.114747842Z","level":"INFO","msg":"stream: created new stream","id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:48.114774161Z","level":"INFO","msg":"stream: started","id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:48.114782707Z","level":"INFO","msg":"writer: Do: started","stream_id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:48.114790862Z","level":"INFO","msg":"handler: started","stream_id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:48.114811641Z","level":"INFO","msg":"sender: started","stream_id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:48.626460081Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T14:19:52.104757178Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T14:19:52.104798555Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T14:19:53.106767318Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-sby7hrmz","runtime_seconds":1.002932149,"subtasks":[{"desc":"final_model.pt","runtime_seconds":0.18211376,"progress":"6.4KB/6.4KB"}]}],"total_operations":1}}
+{"time":"2025-06-19T14:19:54.123014677Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T14:19:54.552921836Z","level":"INFO","msg":"stream: closing","id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:54.552932426Z","level":"INFO","msg":"handler: closed","stream_id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:54.552938598Z","level":"INFO","msg":"writer: Close: closed","stream_id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:54.552942846Z","level":"INFO","msg":"sender: closed","stream_id":"sby7hrmz"}
+{"time":"2025-06-19T14:19:54.552992358Z","level":"INFO","msg":"stream: closed","id":"sby7hrmz"}

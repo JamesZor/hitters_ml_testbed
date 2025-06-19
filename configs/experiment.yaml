@@ -1,0 +1,26 @@
+# configs/experiment.yaml - Main experiment configuration
+defaults:
+  - model: simple_nn
+  - data: hitters
+  - training: default
+  - _self_
+
+# Experiment metadata
+experiment:
+  name: "hitters_salary_prediction"
+  tags: ["baseball", "regression", "pytorch"]
+  notes: "Predicting baseball player salaries using neural networks"
+
+# Random seed for reproducibility
+seed: 42
+
+# Weights & Biases configuration
+wandb:
+  entity: "jameszoryk-me"  # Your wandb username
+  project: "hitters-salary-prediction"
+  mode: "online"  # Can be "offline" for testing
+
+# Output directories
+output_dir: "./experiments/${now:%Y-%m-%d_%H-%M-%S}"
+model_dir: "./models"
+

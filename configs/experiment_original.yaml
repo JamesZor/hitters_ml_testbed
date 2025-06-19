@@ -1,0 +1,21 @@
+# configs/experiment_original.yaml - Exact replica of original
+defaults:
+  - model: original
+  - data: original  
+  - training: original
+  - _self_
+
+experiment:
+  name: "original_replica"
+  tags: ["original", "no-standardization", "rmsprop"]
+  notes: "Exact replica of original hitter.py code"
+
+seed: 42  # Can keep this for deterministic runs
+
+wandb:
+  project: "hitters-salary-prediction"
+  entity: "jameszoryk-me"
+  mode: "online"
+
+output_dir: "./experiments/${now:%Y-%m-%d_%H-%M-%S}"
+model_dir: "./models"

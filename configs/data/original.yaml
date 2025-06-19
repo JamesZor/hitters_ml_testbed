@@ -1,0 +1,15 @@
+# configs/data/original.yaml - Match original preprocessing exactly
+_target_: src.data.dataloader.HittersDataModule
+
+# Data parameters - match original exactly
+dataset_name: "Hitters"
+test_size: 0.33
+random_state: 1  # Original used random_state=1, not 42!
+batch_size: 176  # Full batch training like original
+num_workers: 0
+
+# Data preprocessing - match original exactly
+standardize: false  # ← KEY FIX: No standardization!
+remove_outliers: false
+outlier_threshold: 3.0
+

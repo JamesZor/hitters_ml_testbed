@@ -1,0 +1,37 @@
+[34m[1mwandb[0m: logging graph, to disable use `wandb.watch(log_graph=False)`
+2025-06-19 15:38:42 - __main__ - INFO - Initializing trainer...
+2025-06-19 15:38:42 - __main__ - INFO - Starting training...
+2025-06-19 15:38:42 - src.data.dataloader - INFO - Loading Hitters dataset...
+2025-06-19 15:38:42 - src.data.dataloader - INFO - Setting up data splits and preprocessing...
+2025-06-19 15:38:42 - src.data.dataloader - INFO - Loaded dataset with 263 samples
+2025-06-19 15:38:42 - src.data.dataloader - INFO - Feature matrix shape: (263, 19)
+2025-06-19 15:38:42 - src.data.dataloader - INFO - Target variable shape: (263,)
+2025-06-19 15:38:42 - src.data.dataloader - INFO - Train set: 176 samples
+2025-06-19 15:38:42 - src.data.dataloader - INFO - Test set: 87 samples
+Epoch 49: 100%|███████| 1/1 [00:00<00:00, 62.73it/s, v_num=ompb, train_loss_step=1.06e+5, val_loss=1.03e+5, train_loss_epoch=1.06e+5]
+/home/james/.conda/envs/ml-env/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/home/james/.conda/envs/ml-env/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+2025-06-19 15:38:43 - __main__ - INFO - Testing model...                                                                             
+2025-06-19 15:38:43 - src.data.dataloader - INFO - Loading Hitters dataset...
+2025-06-19 15:38:43 - src.data.dataloader - INFO - Setting up data splits and preprocessing...
+2025-06-19 15:38:43 - src.data.dataloader - INFO - Loaded dataset with 263 samples
+2025-06-19 15:38:43 - src.data.dataloader - INFO - Feature matrix shape: (263, 19)
+2025-06-19 15:38:43 - src.data.dataloader - INFO - Target variable shape: (263,)
+2025-06-19 15:38:43 - src.data.dataloader - INFO - Train set: 176 samples
+2025-06-19 15:38:43 - src.data.dataloader - INFO - Test set: 87 samples
+/home/james/.conda/envs/ml-env/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+Testing DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 197.59it/s]
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        test_loss              102251.796875
+        test_mae            219.67086791992188
+        test_mse               102251.796875
+         test_r2            0.4738268256187439
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+2025-06-19 15:38:43 - __main__ - INFO - Training completed!
+2025-06-19 15:38:43 - __main__ - INFO - Best validation loss: 102251.7969
+2025-06-19 15:38:43 - __main__ - INFO - Test loss: 102251.7969
+2025-06-19 15:38:43 - __main__ - INFO - Test MAE: 219.6709
+2025-06-19 15:38:43 - __main__ - INFO - Test R²: 0.4738
+2025-06-19 15:38:43 - __main__ - INFO - Model saved to experiments/2025-06-19_15-38-40/final_model.pt

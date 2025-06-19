@@ -1,0 +1,14 @@
+experiment:
+  name: hitters_salary_prediction
+  tags:
+  - baseball
+  - regression
+  - pytorch
+  notes: Predicting baseball player salaries using neural networks
+seed: 42
+wandb:
+  project: hitters-salary-prediction
+  entity: null
+  mode: online
+output_dir: ./experiments/${now:%Y-%m-%d_%H-%M-%S}
+model_dir: ./models

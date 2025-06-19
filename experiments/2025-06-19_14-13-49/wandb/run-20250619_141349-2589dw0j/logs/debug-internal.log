@@ -1,0 +1,16 @@
+{"time":"2025-06-19T14:13:50.127714464Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_14-13-49/wandb/run-20250619_141349-2589dw0j/logs/debug-core.log"}
+{"time":"2025-06-19T14:13:50.43860493Z","level":"INFO","msg":"stream: created new stream","id":"2589dw0j"}
+{"time":"2025-06-19T14:13:50.438635407Z","level":"INFO","msg":"stream: started","id":"2589dw0j"}
+{"time":"2025-06-19T14:13:50.438645967Z","level":"INFO","msg":"writer: Do: started","stream_id":"2589dw0j"}
+{"time":"2025-06-19T14:13:50.438669301Z","level":"INFO","msg":"sender: started","stream_id":"2589dw0j"}
+{"time":"2025-06-19T14:13:50.43869532Z","level":"INFO","msg":"handler: started","stream_id":"2589dw0j"}
+{"time":"2025-06-19T14:13:51.048019732Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T14:13:55.357365222Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T14:13:55.357428681Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T14:13:56.359313456Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-2589dw0j","runtime_seconds":1.002791766}],"total_operations":1}}
+{"time":"2025-06-19T14:13:57.570614392Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T14:13:58.225460161Z","level":"INFO","msg":"stream: closing","id":"2589dw0j"}
+{"time":"2025-06-19T14:13:58.225470019Z","level":"INFO","msg":"handler: closed","stream_id":"2589dw0j"}
+{"time":"2025-06-19T14:13:58.225474648Z","level":"INFO","msg":"writer: Close: closed","stream_id":"2589dw0j"}
+{"time":"2025-06-19T14:13:58.225485528Z","level":"INFO","msg":"sender: closed","stream_id":"2589dw0j"}
+{"time":"2025-06-19T14:13:58.22550803Z","level":"INFO","msg":"stream: closed","id":"2589dw0j"}

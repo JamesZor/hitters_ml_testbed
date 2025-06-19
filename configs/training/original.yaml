@@ -1,0 +1,20 @@
+# configs/training/original.yaml - Match original training
+max_epochs: 50  # Exact same as original
+patience: 50  # No early stopping in original
+min_delta: 0.0
+
+# No learning rate scheduling in original
+lr_scheduler: null
+
+# No validation split in original - used test as validation
+validation_split: 0.0
+cross_validation:
+  enabled: false
+
+# Logging
+log_every_n_steps: 1
+save_top_k: 1
+
+# Hardware
+accelerator: "auto"
+devices: 1

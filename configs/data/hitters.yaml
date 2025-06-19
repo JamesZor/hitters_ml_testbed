@@ -1,0 +1,14 @@
+# configs/data/hitters.yaml
+_target_: src.data.dataloader.HittersDataModule
+
+# Data parameters
+dataset_name: "Hitters"
+test_size: 0.33
+random_state: 42
+batch_size: 32
+num_workers: 4
+
+# Data preprocessing
+standardize: true
+remove_outliers: false
+outlier_threshold: 3.0

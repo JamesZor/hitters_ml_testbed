@@ -1,0 +1,16 @@
+{"time":"2025-06-19T15:21:12.857133344Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_15-21-12/wandb/run-20250619_152112-zxig4bd6/logs/debug-core.log"}
+{"time":"2025-06-19T15:21:13.164916903Z","level":"INFO","msg":"stream: created new stream","id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:13.164948523Z","level":"INFO","msg":"stream: started","id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:13.164959223Z","level":"INFO","msg":"writer: Do: started","stream_id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:13.164980994Z","level":"INFO","msg":"sender: started","stream_id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:13.165013104Z","level":"INFO","msg":"handler: started","stream_id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:13.674553961Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T15:21:15.371825422Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T15:21:15.371858153Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T15:21:16.373168381Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-zxig4bd6","runtime_seconds":1.002243969}],"total_operations":1}}
+{"time":"2025-06-19T15:21:18.213996595Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T15:21:18.909364005Z","level":"INFO","msg":"stream: closing","id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:18.909379504Z","level":"INFO","msg":"handler: closed","stream_id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:18.909385946Z","level":"INFO","msg":"writer: Close: closed","stream_id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:18.909390675Z","level":"INFO","msg":"sender: closed","stream_id":"zxig4bd6"}
+{"time":"2025-06-19T15:21:18.90943625Z","level":"INFO","msg":"stream: closed","id":"zxig4bd6"}

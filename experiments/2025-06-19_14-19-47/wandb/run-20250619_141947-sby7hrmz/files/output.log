@@ -1,0 +1,36 @@
+[34m[1mwandb[0m: logging graph, to disable use `wandb.watch(log_graph=False)`
+2025-06-19 14:19:48 - __main__ - INFO - Initializing trainer...
+2025-06-19 14:19:48 - __main__ - INFO - Starting training...
+2025-06-19 14:19:48 - src.data.dataloader - INFO - Loading Hitters dataset...
+2025-06-19 14:19:48 - src.data.dataloader - INFO - Setting up data splits and preprocessing...
+2025-06-19 14:19:48 - src.data.dataloader - INFO - Loaded dataset with 263 samples
+2025-06-19 14:19:48 - src.data.dataloader - INFO - Feature matrix shape: (263, 19)
+2025-06-19 14:19:48 - src.data.dataloader - INFO - Target variable shape: (263,)
+2025-06-19 14:19:48 - src.data.dataloader - INFO - Train set: 176 samples
+2025-06-19 14:19:48 - src.data.dataloader - INFO - Test set: 87 samples
+2025-06-19 14:19:48 - src.data.dataloader - INFO - Applied standardization to features
+Epoch 49: 100%|██████| 6/6 [00:00<00:00, 120.88it/s, v_num=hrmz, train_loss_step=2.94e+5, val_loss=5.09e+5, train_loss_epoch=4.23e+5]
+2025-06-19 14:19:51 - __main__ - INFO - Testing model...                                                                             
+2025-06-19 14:19:51 - src.data.dataloader - INFO - Loading Hitters dataset...
+2025-06-19 14:19:51 - src.data.dataloader - INFO - Setting up data splits and preprocessing...
+2025-06-19 14:19:51 - src.data.dataloader - INFO - Loaded dataset with 263 samples
+2025-06-19 14:19:51 - src.data.dataloader - INFO - Feature matrix shape: (263, 19)
+2025-06-19 14:19:51 - src.data.dataloader - INFO - Target variable shape: (263,)
+2025-06-19 14:19:51 - src.data.dataloader - INFO - Train set: 176 samples
+2025-06-19 14:19:51 - src.data.dataloader - INFO - Test set: 87 samples
+2025-06-19 14:19:51 - src.data.dataloader - INFO - Applied standardization to features
+Testing DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 143.07it/s]
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        test_loss               509094.625
+        test_mae             531.8348388671875
+        test_mse                509094.625
+         test_r2            -1.1198110580444336
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+2025-06-19 14:19:51 - __main__ - INFO - Training completed!
+2025-06-19 14:19:51 - __main__ - INFO - Best validation loss: 509094.6250
+2025-06-19 14:19:51 - __main__ - INFO - Test loss: 509094.6250
+2025-06-19 14:19:51 - __main__ - INFO - Test MAE: 531.8348
+2025-06-19 14:19:51 - __main__ - INFO - Test R²: -1.1198
+2025-06-19 14:19:51 - __main__ - INFO - Model saved to experiments/2025-06-19_14-19-47/final_model.pt
