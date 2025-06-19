@@ -115,15 +115,24 @@ The project uses Hydra for configuration management. Key configuration files:
 
 ## Results
 
-============================================================
-EVALUATION RESULTS
-============================================================
 Model: SimpleNN
+
 Architecture: [50]
+
 Test samples: 87
+
 Mean Absolute Error: 227.02
+
 Root Mean Square Error: 332.43
+
 R² Score: 0.4313
+
 Actual salary range: $68 - $1940
+
 Predicted salary range: $115 - $1468
+
 ✅ MODERATE PERFORMANCE: R² indicates reasonable model fit
+
+
+
+![alt text](https://github.com/JamesZor/hitters_ml_testbed/blob/main/results/success_analysis/evaluation_plots.png)
