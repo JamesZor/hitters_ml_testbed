@@ -1,0 +1,21 @@
+# configs/experiment_selective.yaml - Test selective standardization
+defaults:
+  - model: original  # Same model that worked
+  - data: selectiva_standardization  # NEW: Only standardize numerical
+  - training: original
+  - _self_
+
+experiment:
+  name: "selective_standardization"
+  tags: ["selective", "numerical-only", "rmsprop"]  
+  notes: "Standardize only numerical features, keep categorical unchanged"
+
+seed: 42
+
+wandb:
+  project: "hitters-salary-prediction"
+  entity: "jameszoryk-me"
+  mode: "online"
+
+output_dir: "./experiments/${now:%Y-%m-%d_%H-%M-%S}"
+model_dir: "./models"

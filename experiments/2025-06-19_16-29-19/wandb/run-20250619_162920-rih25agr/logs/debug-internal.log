@@ -1,0 +1,16 @@
+{"time":"2025-06-19T16:29:20.231888265Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_16-29-19/wandb/run-20250619_162920-rih25agr/logs/debug-core.log"}
+{"time":"2025-06-19T16:29:20.541522115Z","level":"INFO","msg":"stream: created new stream","id":"rih25agr"}
+{"time":"2025-06-19T16:29:20.541545449Z","level":"INFO","msg":"stream: started","id":"rih25agr"}
+{"time":"2025-06-19T16:29:20.541554886Z","level":"INFO","msg":"writer: Do: started","stream_id":"rih25agr"}
+{"time":"2025-06-19T16:29:20.541565246Z","level":"INFO","msg":"handler: started","stream_id":"rih25agr"}
+{"time":"2025-06-19T16:29:20.541583129Z","level":"INFO","msg":"sender: started","stream_id":"rih25agr"}
+{"time":"2025-06-19T16:29:21.049709414Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T16:29:22.750459558Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T16:29:22.750493622Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T16:29:23.75194263Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-rih25agr","runtime_seconds":1.002268555}],"total_operations":1}}
+{"time":"2025-06-19T16:29:25.209073292Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T16:29:25.591139936Z","level":"INFO","msg":"stream: closing","id":"rih25agr"}
+{"time":"2025-06-19T16:29:25.591149473Z","level":"INFO","msg":"handler: closed","stream_id":"rih25agr"}
+{"time":"2025-06-19T16:29:25.591154313Z","level":"INFO","msg":"writer: Close: closed","stream_id":"rih25agr"}
+{"time":"2025-06-19T16:29:25.591181514Z","level":"INFO","msg":"sender: closed","stream_id":"rih25agr"}
+{"time":"2025-06-19T16:29:25.591202293Z","level":"INFO","msg":"stream: closed","id":"rih25agr"}

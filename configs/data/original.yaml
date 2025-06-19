@@ -10,6 +10,6 @@ num_workers: 0
 
 # Data preprocessing - match original exactly
 standardize: false  # ← KEY FIX: No standardization!
+standardize_categorical: false  
 remove_outliers: false
 outlier_threshold: 3.0
-

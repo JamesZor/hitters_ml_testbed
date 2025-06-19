@@ -1,0 +1,16 @@
+{"time":"2025-06-19T16:05:31.043019403Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_16-05-30/wandb/run-20250619_160530-j642ohz5/logs/debug-core.log"}
+{"time":"2025-06-19T16:05:31.364284945Z","level":"INFO","msg":"stream: created new stream","id":"j642ohz5"}
+{"time":"2025-06-19T16:05:31.364317857Z","level":"INFO","msg":"stream: started","id":"j642ohz5"}
+{"time":"2025-06-19T16:05:31.36433012Z","level":"INFO","msg":"writer: Do: started","stream_id":"j642ohz5"}
+{"time":"2025-06-19T16:05:31.364336522Z","level":"INFO","msg":"handler: started","stream_id":"j642ohz5"}
+{"time":"2025-06-19T16:05:31.364353955Z","level":"INFO","msg":"sender: started","stream_id":"j642ohz5"}
+{"time":"2025-06-19T16:05:31.963445277Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T16:05:33.668163803Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T16:05:33.668207555Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T16:05:34.669494509Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-j642ohz5","runtime_seconds":1.002137138}],"total_operations":1}}
+{"time":"2025-06-19T16:05:35.883948567Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T16:05:36.251642578Z","level":"INFO","msg":"stream: closing","id":"j642ohz5"}
+{"time":"2025-06-19T16:05:36.251652206Z","level":"INFO","msg":"handler: closed","stream_id":"j642ohz5"}
+{"time":"2025-06-19T16:05:36.251656835Z","level":"INFO","msg":"writer: Close: closed","stream_id":"j642ohz5"}
+{"time":"2025-06-19T16:05:36.251663828Z","level":"INFO","msg":"sender: closed","stream_id":"j642ohz5"}
+{"time":"2025-06-19T16:05:36.251696299Z","level":"INFO","msg":"stream: closed","id":"j642ohz5"}

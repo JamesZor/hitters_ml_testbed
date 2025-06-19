@@ -1,0 +1,2 @@
+- model.optimizer=adam
+- experiment.name=optimizer_comparison
