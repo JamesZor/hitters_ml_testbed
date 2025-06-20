@@ -1,0 +1,16 @@
+{"time":"2025-06-19T17:21:21.466075938Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_17-21-20/wandb/run-20250619_172121-zappnj00/logs/debug-core.log"}
+{"time":"2025-06-19T17:21:22.47636322Z","level":"INFO","msg":"stream: created new stream","id":"zappnj00"}
+{"time":"2025-06-19T17:21:22.476386474Z","level":"INFO","msg":"stream: started","id":"zappnj00"}
+{"time":"2025-06-19T17:21:22.47648568Z","level":"INFO","msg":"writer: Do: started","stream_id":"zappnj00"}
+{"time":"2025-06-19T17:21:22.476508362Z","level":"INFO","msg":"sender: started","stream_id":"zappnj00"}
+{"time":"2025-06-19T17:21:22.476531836Z","level":"INFO","msg":"handler: started","stream_id":"zappnj00"}
+{"time":"2025-06-19T17:21:23.048059007Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T17:21:24.602495849Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T17:21:24.602522549Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T17:21:25.6038669Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-zappnj00","runtime_seconds":1.002129514}],"total_operations":1}}
+{"time":"2025-06-19T17:21:26.304155639Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T17:21:26.6577191Z","level":"INFO","msg":"stream: closing","id":"zappnj00"}
+{"time":"2025-06-19T17:21:26.657728638Z","level":"INFO","msg":"handler: closed","stream_id":"zappnj00"}
+{"time":"2025-06-19T17:21:26.657733818Z","level":"INFO","msg":"writer: Close: closed","stream_id":"zappnj00"}
+{"time":"2025-06-19T17:21:26.65774038Z","level":"INFO","msg":"sender: closed","stream_id":"zappnj00"}
+{"time":"2025-06-19T17:21:26.657773282Z","level":"INFO","msg":"stream: closed","id":"zappnj00"}

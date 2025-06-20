@@ -1,0 +1,16 @@
+{"time":"2025-06-19T17:22:45.43480143Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_17-22-44/wandb/run-20250619_172245-xnx90atp/logs/debug-core.log"}
+{"time":"2025-06-19T17:22:45.749116128Z","level":"INFO","msg":"stream: created new stream","id":"xnx90atp"}
+{"time":"2025-06-19T17:22:45.749150192Z","level":"INFO","msg":"stream: started","id":"xnx90atp"}
+{"time":"2025-06-19T17:22:45.749154099Z","level":"INFO","msg":"handler: started","stream_id":"xnx90atp"}
+{"time":"2025-06-19T17:22:45.749165721Z","level":"INFO","msg":"sender: started","stream_id":"xnx90atp"}
+{"time":"2025-06-19T17:22:45.749172964Z","level":"INFO","msg":"writer: Do: started","stream_id":"xnx90atp"}
+{"time":"2025-06-19T17:22:46.251401699Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T17:22:47.943099077Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T17:22:47.943126668Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T17:22:48.944514742Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-xnx90atp","runtime_seconds":1.002120778,"subtasks":[{"desc":"final_model.pt","runtime_seconds":0.117998925,"progress":"5.4KB/5.4KB"}]}],"total_operations":1}}
+{"time":"2025-06-19T17:22:49.838775068Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T17:22:51.385673332Z","level":"INFO","msg":"stream: closing","id":"xnx90atp"}
+{"time":"2025-06-19T17:22:51.385682559Z","level":"INFO","msg":"handler: closed","stream_id":"xnx90atp"}
+{"time":"2025-06-19T17:22:51.385687839Z","level":"INFO","msg":"writer: Close: closed","stream_id":"xnx90atp"}
+{"time":"2025-06-19T17:22:51.385693991Z","level":"INFO","msg":"sender: closed","stream_id":"xnx90atp"}
+{"time":"2025-06-19T17:22:51.385728846Z","level":"INFO","msg":"stream: closed","id":"xnx90atp"}

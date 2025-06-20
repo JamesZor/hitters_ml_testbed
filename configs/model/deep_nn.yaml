@@ -2,12 +2,12 @@
 _target_: src.models.neural_nets.DeepNN
 
 # Model architecture
-hidden_sizes: [64, 32, 16]
-dropout_rate: 0.3
+hidden_sizes: [19]
+dropout_rate: 0.4
 activation: "relu"
 batch_norm: true
 
 # Model training parameters
 learning_rate: 0.001
-optimizer: "adam"
-weight_decay: 0.0001
+optimizer: "rmsprop"
+weight_decay: 0.0

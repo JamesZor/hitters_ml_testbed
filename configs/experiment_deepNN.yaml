@@ -1,0 +1,22 @@
+# configs/experiment_deepNN.yaml - running a deepNN
+defaults:
+  - model: deep_nn
+  - data: original
+  - training: original 
+  - _self_ 
+
+experiment: 
+  name: "DeepNN_Original"
+  tags: ["original", "deepnn", "rmsprop"] 
+  notes: "running on a deepNN" 
+
+seed: 42 
+
+wandb: 
+  project: "hitters-salary-prediction" 
+  entity: "jameszoryk-me"
+  mode: "online"
+
+output_dir: "./experiments/${now:%Y-%m-%d_%H-%M-%S}"
+model_dir: "./models"
+

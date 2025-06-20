@@ -1,0 +1,16 @@
+{"time":"2025-06-19T17:19:50.854941247Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"experiments/2025-06-19_17-19-49/wandb/run-20250619_171950-fras2so0/logs/debug-core.log"}
+{"time":"2025-06-19T17:19:51.26159566Z","level":"INFO","msg":"stream: created new stream","id":"fras2so0"}
+{"time":"2025-06-19T17:19:51.261619605Z","level":"INFO","msg":"stream: started","id":"fras2so0"}
+{"time":"2025-06-19T17:19:51.261635455Z","level":"INFO","msg":"handler: started","stream_id":"fras2so0"}
+{"time":"2025-06-19T17:19:51.261657206Z","level":"INFO","msg":"sender: started","stream_id":"fras2so0"}
+{"time":"2025-06-19T17:19:51.261765048Z","level":"INFO","msg":"writer: Do: started","stream_id":"fras2so0"}
+{"time":"2025-06-19T17:19:51.762898328Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T17:19:53.469322513Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T17:19:53.469363921Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T17:19:54.470617272Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact model-fras2so0","runtime_seconds":1.002091142}],"total_operations":1}}
+{"time":"2025-06-19T17:19:56.029009842Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T17:19:56.40254732Z","level":"INFO","msg":"stream: closing","id":"fras2so0"}
+{"time":"2025-06-19T17:19:56.402560084Z","level":"INFO","msg":"handler: closed","stream_id":"fras2so0"}
+{"time":"2025-06-19T17:19:56.402566146Z","level":"INFO","msg":"writer: Close: closed","stream_id":"fras2so0"}
+{"time":"2025-06-19T17:19:56.402570704Z","level":"INFO","msg":"sender: closed","stream_id":"fras2so0"}
+{"time":"2025-06-19T17:19:56.402604457Z","level":"INFO","msg":"stream: closed","id":"fras2so0"}

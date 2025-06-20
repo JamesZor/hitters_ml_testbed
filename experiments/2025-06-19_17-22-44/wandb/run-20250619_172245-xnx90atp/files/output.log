@@ -1,0 +1,53 @@
+[34m[1mwandb[0m: logging graph, to disable use `wandb.watch(log_graph=False)`
+2025-06-19 17:22:46 - __main__ - INFO - Initializing trainer...
+2025-06-19 17:22:46 - __main__ - INFO - Starting training...
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Setting up data splits and preprocessing...
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Loading Hitters dataset...
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Loaded dataset with 263 samples
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Feature matrix shape: (263, 19)
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Target variable shape: (263,)
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Feature matrix shape: (263, 19)
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Target variable shape: (263,)
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Original numerical columns: ['AtBat', 'Hits', 'HmRun', 'Runs', 'RBI', 'Walks', 'Years', 'CAtBat', 'CHits', 'CHmRun', 'CRuns', 'CRBI', 'CWalks', 'PutOuts', 'Assists', 'Errors']
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Original categorical columns: ['League', 'Division', 'NewLeague']
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Transformed numerical column indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 17]
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Transformed categorical column indices: [13, 14, 18]
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Numerical features: ['AtBat', 'Hits', 'HmRun', 'Runs', 'RBI', 'Walks', 'Years', 'CAtBat', 'CHits', 'CHmRun', 'CRuns', 'CRBI', 'CWalks', 'PutOuts', 'Assists', 'Errors']
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Categorical features: ['League[N]', 'Division[W]', 'NewLeague[N]']
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Train set: 176 samples
+2025-06-19 17:22:46 - src.data.dataloader - INFO - Test set: 87 samples
+Epoch 49: 100%|███████| 1/1 [00:00<00:00, 62.18it/s, v_num=0atp, train_loss_step=4.99e+5, val_loss=4.63e+5, train_loss_epoch=4.99e+5]
+/home/james/.conda/envs/ml-env/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'val_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+/home/james/.conda/envs/ml-env/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'train_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+2025-06-19 17:22:47 - __main__ - INFO - Testing model...                                                                             
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Setting up data splits and preprocessing...
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Loading Hitters dataset...
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Loaded dataset with 263 samples
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Feature matrix shape: (263, 19)
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Target variable shape: (263,)
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Feature matrix shape: (263, 19)
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Target variable shape: (263,)
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Original numerical columns: ['AtBat', 'Hits', 'HmRun', 'Runs', 'RBI', 'Walks', 'Years', 'CAtBat', 'CHits', 'CHmRun', 'CRuns', 'CRBI', 'CWalks', 'PutOuts', 'Assists', 'Errors']
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Original categorical columns: ['League', 'Division', 'NewLeague']
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Transformed numerical column indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 17]
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Transformed categorical column indices: [13, 14, 18]
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Numerical features: ['AtBat', 'Hits', 'HmRun', 'Runs', 'RBI', 'Walks', 'Years', 'CAtBat', 'CHits', 'CHmRun', 'CRuns', 'CRBI', 'CWalks', 'PutOuts', 'Assists', 'Errors']
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Categorical features: ['League[N]', 'Division[W]', 'NewLeague[N]']
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Train set: 176 samples
+2025-06-19 17:22:47 - src.data.dataloader - INFO - Test set: 87 samples
+/home/james/.conda/envs/ml-env/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=15` in the `DataLoader` to improve performance.
+Testing DataLoader 0: 100%|███████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 172.88it/s]
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+       Test metric             DataLoader 0
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        test_loss              463044.46875
+        test_mae             519.0965576171875
+        test_mse               463044.46875
+         test_r2            -1.382761001586914
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+2025-06-19 17:22:47 - __main__ - INFO - Training completed!
+2025-06-19 17:22:47 - __main__ - INFO - Best validation loss: 463044.4688
+2025-06-19 17:22:47 - __main__ - INFO - Test loss: 463044.4688
+2025-06-19 17:22:47 - __main__ - INFO - Test MAE: 519.0966
+2025-06-19 17:22:47 - __main__ - INFO - Test R²: -1.3828
+2025-06-19 17:22:47 - __main__ - INFO - Model saved to experiments/2025-06-19_17-22-44/final_model.pt

@@ -1,0 +1,49 @@
+model:
+  _target_: src.models.neural_nets.DeepNN
+  hidden_sizes:
+  - 50
+  - 32
+  - 16
+  dropout_rate: 0.4
+  activation: relu
+  batch_norm: true
+  learning_rate: 0.001
+  optimizer: rmsprop
+  weight_decay: 0.0
+data:
+  _target_: src.data.dataloader.HittersDataModule
+  dataset_name: Hitters
+  test_size: 0.33
+  random_state: 1
+  batch_size: 176
+  num_workers: 0
+  standardize: false
+  standardize_categorical: false
+  remove_outliers: false
+  outlier_threshold: 3.0
+training:
+  max_epochs: 5000
+  patience: 50
+  min_delta: 0.0
+  lr_scheduler: null
+  validation_split: 0.0
+  cross_validation:
+    enabled: false
+  log_every_n_steps: 1
+  save_top_k: 1
+  accelerator: auto
+  devices: 1
+experiment:
+  name: DeepNN_Original
+  tags:
+  - original
+  - deepnn
+  - rmsprop
+  notes: running on a deepNN
+seed: 42
+wandb:
+  project: hitters-salary-prediction
+  entity: jameszoryk-me
+  mode: online
+output_dir: ./experiments/${now:%Y-%m-%d_%H-%M-%S}
+model_dir: ./models
